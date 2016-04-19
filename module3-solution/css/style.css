@@ -1,0 +1,76 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background: #fdd2b5;
+}
+
+.navbar-brand {
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-brand h1 { 
+  color: #f3ffe2;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+
+header {
+  margin-bottom: 10px;
+}
+
+
+.jumbotron {
+  background: transparent;  
+}
+
+.jumbotron h1 {  
+  font-size: 2.5em;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #f3ffe2;
+  text-shadow: 2px 2px 2px black;
+}
+
+#exp{
+  word-wrap: break-word;
+  border: 1px solid black;
+  padding: 2%;
+  color: black;
+  background: #f3ffe2;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+#exp p {
+  font-size: 1.2em;
+}
+
+#collapsable {
+  margin:0;
+}
+
+#collapsable ul li {
+  border: 1px solid black;
+  background: #f3ffe2;  
+  font-weight: bold;
+  font-size: 1.2em;
+
+}
+
+#collapsable ul a {
+  color: black;
+}
+
+#collapsable ul a:hover {
+  background: black;
+  color: #f3ffe2;
+  border: 1px solid white;
+}
